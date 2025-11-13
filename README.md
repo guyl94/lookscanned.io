@@ -29,6 +29,16 @@ $ npm run dev # Run Dev Server
 $ npm run build # Build to dist/
 ```
 
+## 🐳 Deploy with Docker Compose
+
+You can also deploy Look Scanned using Docker Compose.
+
+```sh
+$ docker-compose up -d
+```
+
+The application will be available at `http://localhost:8123`.
+
 ## ♥ Credits
 
 * [baicunko/scanyourpdf: Repository for the Scan Your Pdf community](https://github.com/baicunko/scanyourpdf)

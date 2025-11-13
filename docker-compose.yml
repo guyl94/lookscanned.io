@@ -1,0 +1,6 @@
+services:
+  lookscanned:
+    image: ghcr.io/guyl94/lookscanned.io:main
+    ports:
+      - "8123:80"
+    restart: always
